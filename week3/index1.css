@@ -1,0 +1,66 @@
+body {
+  font-family : Arial;
+  font-size : 13px;
+  background-color: #d3d3d3;
+  
+}
+/**** header, nav, section, footer 기본정의 부분 시작***/
+#header {
+  position:relative;
+  font-size: 20px;
+  color: #333;
+  height: 50px;
+  background-color: #d3d3d3;
+}
+#nav {
+ position:fixed; /*마우스 스크롤시 따라가는 메뉴 */
+  left:5px;
+  top:50px;
+ height: 50px;
+ background-color: #ffffff;
+}
+/*아직까지 relative의 정확한 사용법을 잘 모르겠습니다.*/
+#MainSection {
+  position:absolute;
+  top:100px;
+}
+#footer {
+  position:absolute;
+  top:1000px;
+}
+
+/**** header, nav, section, footer 기본정의 부분 끝***/
+#header > h3{
+  font-size: 20px;
+}
+
+#header > span.searchIcon {
+}
+
+#nav > .nav1 {
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+}
+#nav > .nav2 {
+  font-size: 20px;
+}
+#MainSection > .bookmenu {
+  width:1200px;
+  height:290px;
+  border:1px solid black;
+  position:relative;
+}
+#MainSection > .bookmenu > .box1 {
+  width:100px;
+  height:100px;
+  background-color:white;
+  margin:10px;
+  padding:10px;
+  float:right;
+}
+.bookmenu > .booktitle {
+  font-size: 20px;
+  
+}
