@@ -1,0 +1,159 @@
+body {
+    background-color: #d3d3d3;
+}
+
+header {
+  background-color : #dfdfdf;/*나중에 #d3d3d3으로 바꿀것 */
+  width:100%;
+  height: 50px;
+}
+
+#wrap_header {
+    width : 100%;
+    height: 100%;
+}
+.logo {
+    float:left;
+}
+.searchbar {
+    background-color: white;
+    font-size: 15px;
+    width: 400px;
+    height: 30px;
+    float:left;
+    margin-left: 2%;
+}
+
+.searchbutton {
+    background-color: #1aa1e1;
+    width: 20px;
+    height: 18px;
+    float:left;
+    margin-left: 0%;
+}
+
+.login {
+    color:white;
+    background-color: #1aa1e1;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    line-height: 42px;
+    float: right;
+    margin-right: 3%;
+}
+
+nav {
+  background-color : white;
+  width:100%;
+  height: 40px;
+}
+
+span.menu_left:hover{
+    background-color: #fefef;
+}
+
+span.menu_center:hover{
+    background-color: #dfdfdf;
+}
+
+span.menu_left {
+    font-size: 20px;
+    color: white;
+    background-color: #1aa1e1;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 42px;
+    float:left;
+}
+
+span.menu_center {
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+    line-height: 42px;
+    float: left;
+    margin-left: 25px;
+}
+
+#wrap {
+  width: 100%;
+  height: 100%;
+ 
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.mybook : hover{ /*왜 여기에는 호버가 안 먹히는 건지 모르겠습니다. */
+    background-color: yellow;
+}
+.shopping : hover{/*왜 여기에는 호버가 안 먹히는 건지 모르겠습니다. */
+    background-color: yellow;
+}
+
+.mybook {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.shopping {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+aside {
+  background-color: #e0e0e0;
+  float: left;
+  height:150px;
+  width: 15%;
+}
+
+section {
+  /*border:1px solid black;*/
+  float: left;
+  height: 1000px;
+  width: 80%;
+  margin-left: 1%;
+}
+.lookmore {
+    color: white;
+    background-color: blue;
+    width: 60px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    float: right;
+    margin-right: 5%;
+    
+}
+
+.wrap1 {
+    width:100%;;
+    height:200px;
+    margin-top: 3%;
+}
+
+
+.wrap1 > section > img {
+    width : 100px;
+    height: 100px;
+}
+
+.wrap1 > section {
+    background-color: white;
+    border:1px solid blue;
+    width:100px;
+    height: 150px;
+    float:left;
+    margin-left: 2%;
+}
+
+footer {
+  margin-top: 5%;
+  width:100%;
+  height: 80px;
+  clear:both;
+    float:left;
+}
